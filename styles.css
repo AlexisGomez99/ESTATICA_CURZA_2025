@@ -1,0 +1,30 @@
+body{
+    background-color: lightgray;
+
+}
+
+a{
+    color: rgb(201, 212, 169);
+    font-size: 50px;
+}
+
+nav{
+    background: lightcoral;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#me{
+    margin: 10px;
+    width: 300px;
+    height: auto;
+
+}
+
+footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
