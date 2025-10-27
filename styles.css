@@ -3,7 +3,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    animation: title 0.8s infinite;
+    animation: title 0.8s ease-out 1;
 }
 
 
@@ -99,7 +99,7 @@ footer{
     flex: auto;
     width: 40px;
     display: inline-block;
-    animation: fullSpinY 2s infinite; 
+    animation: fullSpinY 2s ease-out 1; 
 }
 
 form{
@@ -139,4 +139,13 @@ table{
 
 .acerca-de-content {
     padding: 0 10px;
+}
+
+#BotonArriba{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    box-shadow: none;
+    border-radius: 40px;
 }
