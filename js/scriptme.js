@@ -18,12 +18,5 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
-
-
-
-
-
-
-
     
 });

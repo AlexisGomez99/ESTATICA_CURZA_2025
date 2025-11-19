@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/stylegame.css">
+</head>
+<body>
+    <header>
+        <h1 class="main-title">Pagina personal de Ricardo Alexis Gómez Espinoza<span class="logo-curza"><img src="../img/CURZAS.png" alt="Logo CURZA"></span></h1>
+    </header>
+    <div class="container">
+        <h1>Piedra, Papel o Tijera</h1>
+
+        <div class="choices">
+            <button id="rock" onclick="jugar('Piedra')">Piedra 🗿</button>
+            <button id="paper" onclick="jugar('Papel')">Papel 📄</button>
+            <button id="scissors" onclick="jugar('Tijera')">Tijera ✂️</button>
+        </div>
+
+        <div id="results">
+            <p id="user-choice">Tu elección: -</p>
+            <p id="computer-choice">Elección de la Computadora: -</p>
+            <h2 id="outcome">¡Haz tu jugada!</h2>
+        </div>
+
+        <div class="score-board">
+            <p>Puntuación:</p>
+            <p>Tú: <span id="user-score">0</span> | Computadora: <span id="computer-score">0</span></p>
+        </div>
+    </div>
+
+    <script src="../js/scriptgame.js"></script>
+</body>
+</html>
